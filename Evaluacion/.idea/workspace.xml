@@ -54,6 +54,13 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -66,13 +73,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectId" id="1iZHTKgOJJsoKr3KhfAZqFo0oyL" />
+  <component name="ProjectId" id="1k51RaRcA7jQgY2KQwXZfcVkcHD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -92,11 +93,18 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libreria/out/artifacts/Libreria_jar/Libreria.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Imagenes" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kitsu6922\Documents\GitHub\EstructuraDatos\Evaluacion\src\Imagenes" />
+      <recent name="C:\Users\Kitsu6922\Documents\GitHub\EstructuraDatos\Evaluacion\src\sample\Imagenes" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -126,7 +134,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="ConceptosBasicos" />
+      <module name="Evaluacion" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -212,37 +220,58 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="389" y="126" key="FileChooserDialogImpl" timestamp="1602108266233">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="389" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602108266233" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1602109703269">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602109703269" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1602109703269">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602109703269" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1602109703269">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602109703269" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1602109703269">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602109703269" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1602108283291">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602108283291" />
-    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1604972735836">
+    <state x="275" y="27" key="#Notifications" timestamp="1605152571492">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1604972735836" />
-    <state x="65" y="70" key="new project wizard" timestamp="1604975629222">
+    <state x="275" y="27" key="#Notifications/0.0.1366.736@0.0.1366.736" timestamp="1605152571492" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1604976603416">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="65" y="70" key="new project wizard/0.0.1366.736@0.0.1366.736" timestamp="1604975629222" />
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.736@0.0.1366.736" timestamp="1604976603416" />
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1605127811977">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.736@0.0.1366.736" timestamp="1605127811977" />
+    <state x="389" y="110" key="FileChooserDialogImpl" timestamp="1605149999457">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="389" y="110" key="FileChooserDialogImpl/0.0.1366.736@0.0.1366.736" timestamp="1605149999457" />
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1605158324597">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1605158324597" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1605158324595">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1605158324595" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1605158324594">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1605158324594" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1605158324596">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1605158324596" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1605153052994">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1605153052994" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1605115619102">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1605115619102" />
+    <state x="65" y="70" key="new project wizard" timestamp="1605145989130">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="65" y="70" key="new project wizard/0.0.1366.736@0.0.1366.736" timestamp="1605145989130" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1605152258428">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736@0.0.1366.736" timestamp="1605152258428" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Evaluacion$Main.ic" NAME="Main Coverage Results" MODIFIED="1605154794308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sample.*</FILTER>
+    </SUITE>
   </component>
 </project>
