@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXColorPicker?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="panel_ahorcado" layoutX="200.0" layoutY="50.0" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="350.0" layoutY="122.0" prefHeight="99.0" prefWidth="132.0" text="kklasflalsk" />
+            <JFXColorPicker layoutX="91.0" layoutY="130.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel_gr" layoutX="200.0" layoutY="50.0" maxHeight="650.0" maxWidth="1000.0" minHeight="650.0" minWidth="1000.0" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <JFXComboBox layoutX="87.0" layoutY="90.0" prefHeight="50.0" prefWidth="228.0" />
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER" layoutY="50.0" prefHeight="650.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow height="55.8425" radius="28.348125" width="59.55" />
+         </effect>
+         <children>
+            <JFXButton fx:id="boton_lateral_gr" graphicTextGap="0.0" onAction="#cambio_panel_gr" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #FF0105; -fx-background-radius: 100;" text="Gato y Raton">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5111111111111111" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#c31b1b" />
+                        <Stop color="#ffa4a4" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+               <effect>
+                  <DropShadow color="#860505" height="55.1" offsetX="5.0" offsetY="5.0" radius="22.9725" spread="0.16" width="38.79" />
+               </effect>
+            </JFXButton>
+            <Label />
+            <JFXButton fx:id="boton_lateral_ahorcado" graphicTextGap="0.0" layoutX="10.0" layoutY="10.0" onAction="#cambio_panel_ahorcado" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #ff5d00; -fx-background-radius: 100;" text="Ahorcado">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#ff5d00" />
+                        <Stop color="#ffa676" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+            <Label />
+            <JFXButton graphicTextGap="0.0" layoutX="10.0" layoutY="123.0" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #F3FE0E; -fx-background-radius: 100;" text="PROXIMAMENTE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#f3fe0e" />
+                        <Stop color="#fdff75" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+            <Label />
+            <JFXButton graphicTextGap="0.0" layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #05FF01; -fx-background-radius: 100;" text="PROXIMAMENTE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#05ff01" />
+                        <Stop color="#79ff77" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+            <Label />
+            <JFXButton graphicTextGap="0.0" layoutX="10.0" layoutY="123.0" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #0501FF; -fx-background-radius: 100;" text="PROXIMAMENTE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#0501ff" />
+                        <Stop color="#8585ff" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+            <Label />
+            <JFXButton graphicTextGap="0.0" layoutX="10.0" layoutY="236.0" prefHeight="90.0" prefWidth="180.0" style="-fx-background-color: #9D00D6; -fx-background-radius: 100;" text="PROXIMAMENTE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <ripplerFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#9d00d6" />
+                        <Stop color="#dd7eff" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </ripplerFill>
+            </JFXButton>
+         </children>
+      </VBox>
+      <AnchorPane prefHeight="50.0" prefWidth="1200.0" style="-fx-background-color: #0501FF;">
+         <children>
+            <JFXButton fx:id="bt_close" buttonType="RAISED" contentDisplay="CENTER" ellipsisString="" layoutX="1150.0" layoutY="5.0" onAction="#exit_window" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 500; -fx-border-color: FF0105; -fx-border-width: 5; -fx-background-radius: 500;" text="X" textAlignment="CENTER" textFill="RED" textOverrun="CLIP">
+               <font>
+                  <Font name="2015 Cruiser" size="15.0" />
+               </font>
+               <ripplerFill>
+                  <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="RED" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+            <JFXButton fx:id="bt_close1" contentDisplay="CENTER" ellipsisString="" layoutX="1100.0" layoutY="5.0" onAction="#exit_window" prefHeight="40.0" prefWidth="40.0" ripplerFill="WHITE" style="-fx-background-color: #FFFFFF; -fx-border-radius: 500; -fx-border-color: #f4ff00; -fx-border-width: 5; -fx-background-radius: 500;" text="-" textAlignment="CENTER" textFill="#f4ff00" textOverrun="CLIP">
+               <font>
+                  <Font name="2015 Cruiser" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

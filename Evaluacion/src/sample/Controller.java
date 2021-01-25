@@ -23,7 +23,7 @@ public class Controller {
     @FXML
     public void initialize(){
         cb.getItems().addAll("Pez Betta","Carpa Comun","Pez Dorado","Guppy","Tilapia del Nilo","Pez Sol","Lobina Negra","Trucha Arcoiris","Basa","Atun Comun","Huachinango","Amphiprion Ocellaris");
-        cb.getSelectionModel().select("Pez Betta");
+        cb.getSelectionModel().select(0);
     }
 
     public void cambio(){
@@ -47,20 +47,14 @@ public class Controller {
                     cb.getSelectionModel().select(1);
                     cb.getItems().remove(index);
                 }
-
             }else{
                 cb.getSelectionModel().select(0);
                 cb.getItems().remove(index);
             }
-
             x++;
-
-
             cambio();
             txt_pn.setText("");
         }else{
-            
-
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Precaución");
             alert.setHeaderText("Datos Llenos");
